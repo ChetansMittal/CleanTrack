@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="icon" type="image/png" href="images\cleantrack Logo-modified.png"/>
+<title>CleanTrack</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <img align="left" src="images\cleantrack Logo-modified.png" alt="logo" width="45" height="45" alt="" />
+    <div align="left" id="hgroup">
+      <h2 ​>CleanTrack</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="">Register a Complaint</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Donation</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="#footer">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images\bg001.png" style="width:100%">
+          
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images\2.png" style="width:100%">
+          
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images\3.png" style="width:100%">
+          
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for(i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if(slideIndex > slides.length) {
+            slideIndex = 1
+          }
+          slides[slideIndex - 1].style.display = "block";
+          setTimeout(showSlides, 2000); 
+        }
+        </script>
+    <div id="homepage">
+      <!-- Footer -->
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+   
+   
+    <section class="one_quarter">
+      <h2 class="title">Volunteer with us</h2>
+      <nav>
+        <ul>
+          <li><a href='#'>Contractor Name : Surya P</a> </li>
+          <li><a href='#'>Company name : ABC pvt ltd</a></li>
+          <li><a href="#">Email : abc@gmail.com</a></li>
+          <li><a href="#">Phone no : 02245 67432</a></li>
+        
+        </ul>
+      </nav>
+    </section>
+
+    <section class="two_quarter">
+      <h2 class="title">About us</h2>
+      <nav>
+        <ul>
+          <li><a href="#">CleanTrack is launched in 2021 for tracking and improving cleaning service and hence reducing the "Garbage Pollution"</a></li>
+          <li><a href="#">This is joint effort by "Team Aarnik" and municipal corporation of city</a></li>
+          <li class="last"><a href="#">Financial year : 2021-22</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="one_quarter lastbox">
+      <h2 class="title">Our Pledge & Logo</h2>
+      <nav>
+        <ul>
+          <li><a href="#">स्वच्छ सुंदर अपना शहर </a></li>
+          <li class="last"><a href="#">स्वच्छता की बहती नहर</a></li>
+          <img  src="images\cleantrack Logo-modified.png" alt="logo" width="60" height="60" alt="" />
+        </ul>
+      </nav>
+    </section>
+
+   
+   
+
+
+</body>
+</html>
