@@ -1,121 +1,305 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html PUBLIC >
+
+<html >
 <head>
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-<link rel="icon" type="image/png" href="images\cleantrack Logo-modified.png"/>
+	
+  
+	<link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="icon" type="image/png" href="images\OJYTTX0-modified.png"/>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <title>CleanTrack</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 <body>
-<div class="wrapper row1">
-  <header id="header" class="clear">
-    <img align="left" src="images\cleantrack Logo-modified.png" alt="logo" width="45" height="45" alt="" />
-    <div align="left" id="hgroup">
-      <h2 ​>CleanTrack</h2>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="">Register a Complaint</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="">Donation</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="#footer">Contact us</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-<!-- content -->
-<div class="wrapper row2">
-  <div id="container" class="clear">
-    <!-- Slider -->
+<div id="wrapper" class="container">
+	<div id="header">
+		<div id="logo">
+			<img align="left" src="images\OJYTTX0-modified.png" alt="logo" width="50" height="50" alt="" />
+			<h1><a href="#">CleanTrack</a></h1>
+			<p>Cleanliness is our pledge.</p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">Register a Complaint</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Donation </a></li>
+				<li><a href="#">About us</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Slider -->
     <section id="slider">
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="images\bg001.png" style="width:100%">
-          
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="images\2.png" style="width:100%">
-          
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="images\3.png" style="width:100%">
-          
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-      <script>
-        var slideIndex = 0;
-        showSlides();
-        function showSlides() {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          for(i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          slideIndex++;
-          if(slideIndex > slides.length) {
-            slideIndex = 1
-          }
-          slides[slideIndex - 1].style.display = "block";
-          setTimeout(showSlides, 2000); 
-        }
-        </script>
-    <div id="homepage">
-      <!-- Footer -->
-<div class="wrapper row3">
-  <div id="footer" class="clear">
-   
-   
-    <section class="one_quarter">
-      <h2 class="title">Volunteer with us</h2>
-      <nav>
-        <ul>
-          <li><a href='#'>Contractor Name : Surya P</a> </li>
-          <li><a href='#'>Company name : ABC pvt ltd</a></li>
-          <li><a href="#">Email : abc@gmail.com</a></li>
-          <li><a href="#">Phone no : 02245 67432</a></li>
-        
-        </ul>
-      </nav>
-    </section>
+		<div class="slideshow-container">
+		  <div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="images\bg001.png" style="width:100%">
+			
+		  </div>
+		  <div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img src="images\2.png" style="width:100%">
+			
+		  </div>
+		  <div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="images\3.png" style="width:100%">
+			
+		  </div>
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		<script>
+		  var slideIndex = 0;
+		  showSlides();
+		  function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for(i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if(slideIndex > slides.length) {
+			  slideIndex = 1
+			}
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 2000); 
+		  }
+		  </script>
+	  <div id="homepage">
+	<div id="page">
+		<div id="content">
+			<div id="cbox1">
+				<h2>Dashboard</h2>
+				<img align="right" src="images\demo\4.jfif" width="400" height="480" alt="">
+				<p>Here will be our map info and form of a map</p>
+			</div>
+			<div id="two-column">
+				<div id="tbox1">
+					<h2>something box1</h2>
+					<ul class="style2">
+						<li class="first">
+							<h3><a href="#">xxx</a></h3>
+							<p><a href="#">xxxx</a></p>
+						</li>
+						<li>
+							<h3><a href="#">xxx</a></h3>
+							<p><a href="#">xxxx</a></p>
+						</li>
+						<li>
+							<h3><a href="#">xxxx</a></h3>
+							<p><a href="#">xxxx</a></p>
+						</li>
+					</ul>
+				</div>
+				<div id="tbox2">
+					<h2>box2</h2>
+					<ul class="style2">
+						<li class="first">
+							<h3><a href="#">xxxx</a></h3>
+							<p><a href="#">xxxx</a></p>
+						</li>
+						<li>
+							<h3><a href="#">xxx</a></h3>
+							<p><a href="#">xxxx.</a></p>
+						</li>
+						<li>
+							<h3><a href="#">xxxx</a></h3>
+							<p><a href="#">xxxx</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="sidebar">
+			<div id="box1">
+				<h2>Images</h2>
+				
+			</div>
+			<div id="box2">
+				<h2>News and Attachments</h2>
+				<ul class="style3">
+					<li class="first"><img src="images/img02.jpg" width="78" height="78" alt="">
+						<p>xxxxx </p>
+						<p class="posted">xxx</p>
+					</li>
+					<li><img src="images/img03.jpg" width="78" height="78" alt="">
+						<p>xxxxx </p>
+						<p class="posted">xxxxx</p>
+					</li>
+					<li><img src="images/img04.jpg" width="78" height="78" alt="">
+						<p>xxxxx </p>
+						<p class="posted">xxxx</p>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
 
-    <section class="two_quarter">
-      <h2 class="title">About us</h2>
-      <nav>
-        <ul>
-          <li><a href="#">CleanTrack is launched in 2021 for tracking and improving cleaning service and hence reducing the "Garbage Pollution"</a></li>
-          <li><a href="#">This is joint effort by "Team Aarnik" and municipal corporation of city</a></li>
-          <li class="last"><a href="#">Financial year : 2021-22</a></li>
-        </ul>
-      </nav>
-    </section>
-    <section class="one_quarter lastbox">
-      <h2 class="title">Our Pledge & Logo</h2>
-      <nav>
-        <ul>
-          <li><a href="#">स्वच्छ सुंदर अपना शहर </a></li>
-          <li class="last"><a href="#">स्वच्छता की बहती नहर</a></li>
-          <img  src="images\cleantrack Logo-modified.png" alt="logo" width="60" height="60" alt="" />
-        </ul>
-      </nav>
-    </section>
+	
 
-   
-   
+		<div class="slider">
+		  <div id="slide-left-slider">
+			<div class="slide-left">
+			</div>
+		  </div>
+		  <div id="cards-slider">
+			<div class="cards">
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Animals" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Animals</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Nature" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Nature</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Architecture" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Architecture</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Technology" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Technology</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="People" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>People</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Animals" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Animals</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Nature" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Nature</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Architecture" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Architecture</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="Technology" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>Technology</b>
+				  </h4>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="http://via.placeholder.com/220x220" alt="People" style="width:100%">
+				<div class="slider">
+				  <h4>
+					<b>People</b>
+				  </h4>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  
+		  <div id="slide-right-slider">
+			<div class="slide-right">
+			</div>
+		  </div>
+	  
+		</div>
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+		<script  src="./script.js"></script>
+	  
 
 
+	
+
+	<div class="staff-container">
+		
+		<div class="single-staff">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<div class="staff-info">
+				<span class="fst-name">Chetan</span>
+				<span class="lst-name">Agarwal</span>
+			</div>
+		</div>
+	
+		<div class="single-staff">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<div class="staff-info">
+				<span class="fst-name">Shruti</span>
+				<span class="lst-name">Mehta</span>
+			</div>
+		</div>
+	
+		<div class="single-staff">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<div class="staff-info">
+				<span class="fst-name">Shubham</span>
+				<span class="lst-name">Sontakke</span>
+			</div>
+		</div>
+
+		<div class="single-staff">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<div class="staff-info">
+				<span class="fst-name">Rana</span>
+				<span class="lst-name">Pathan</span>
+			</div>
+		</div>
+	
+	</div>
+	<div class="box">
+		<h2>Our Team</h2>
+		xxxxxx
+	  </div>
+
+	<div id="footer">
+		<p>First section, first line of text<br /> Second line of text</p>
+		 <p>Second section, first line of text<br /> Second line of text</p>
+		  <p>Third section, first line of text<br /> Second line of text</p> 
+	</div>
+</div>
 </body>
 </html>
