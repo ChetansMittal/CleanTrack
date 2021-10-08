@@ -6,7 +6,7 @@
   
 	<link rel="icon" type="image/png" href="/favicon.png"/>
 <link rel="icon" type="image/png" href="images\OJYTTX0-modified.png"/>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -20,136 +20,181 @@
 <div id="wrapper" class="container">
 	<div id="header">
 		<div id="logo">
-			<img align="left" src="images\OJYTTX0-modified.png" alt="logo" width="50" height="50" alt="" />
-			<h1><a href="#">CleanTrack</a></h1>
-			<p>Cleanliness is our pledge.</p>
+			<img align="left" src="images\OJYTTX0-modified.png" alt="logo" width="42" height="42" alt="" />
+			<h1><a href="#">  CleanTrack</a></h1>
+			
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Register a Complaint</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Dashboard</a></li>
-				<li><a href="#">Donation </a></li>
-				<li><a href="#">About us</a></li>
+				<li class="current_page_item"><a href="http://localhost/f/Contactus/index.html" target="_blank">Register a Complaint</a></li>
+				<li><a href="#events">Events</a></li>
+				<li><a href="#two-column">Dashboard</a></li>
+				<li><a href="https://pages.razorpay.com/pl_I6AUeEMExNWLVy/view">Donation </a></li>
+				<li><a href="#aboutus">About us</a></li>
 			</ul>
 		</div>
 	</div>
 	<!-- Slider -->
-    <section id="slider">
-		<div class="slideshow-container">
-		  <div class="mySlides fade">
-			<div class="numbertext">1 / 3</div>
-			<img src="images\bg001.png" style="width:100%">
-			
-		  </div>
-		  <div class="mySlides fade">
-			<div class="numbertext">2 / 3</div>
-			<img src="images\2.png" style="width:100%">
-			
-		  </div>
-		  <div class="mySlides fade">
-			<div class="numbertext">3 / 3</div>
-			<img src="images\3.png" style="width:100%">
-			
-		  </div>
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</div>
-		<br>
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span>
-		  <span class="dot" onclick="currentSlide(2)"></span>
-		  <span class="dot" onclick="currentSlide(3)"></span>
-		</div>
-		<script>
-		  var slideIndex = 0;
-		  showSlides();
-		  function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			for(i = 0; i < slides.length; i++) {
-			  slides[i].style.display = "none";
-			}
-			slideIndex++;
-			if(slideIndex > slides.length) {
-			  slideIndex = 1
-			}
-			slides[slideIndex - 1].style.display = "block";
-			setTimeout(showSlides, 2000); 
-		  }
-		  </script>
+    <div id="slider">
+		<ul id="slideWrap"> 
+		  <li><img src="images\bg1.png" alt=""></li>
+		  <li><img src="images\bg2.png" alt=""></li>
+		  <li><img src="images\bg3.png" alt=""></li>
+		  <li><img src="images\bg4.png" alt=""></li>
+		  <li><img src="images\bg5.png" alt=""></li>
+		</ul>
+		<a id="prev" href="#">&#8810;</a>
+		<a id="next" href="#">&#8811;</a>
+	  </div>
+		<script  src="./script.js"></script>
+		
+		 
 	  <div id="homepage">
 	<div id="page">
 		<div id="content">
-			<div id="cbox1">
-				<h2>Dashboard</h2>
-				<img align="right" src="images\demo\4.jfif" width="400" height="480" alt="">
-				<p>Here will be our map info and form of a map</p>
-			</div>
+			
 			<div id="two-column">
 				<div id="tbox1">
-					<h2>something box1</h2>
+					<h2>Dashboard</h2>
 					<ul class="style2">
-						<li class="first">
-							<h3><a href="#">xxx</a></h3>
-							<p><a href="#">xxxx</a></p>
-						</li>
-						<li>
-							<h3><a href="#">xxx</a></h3>
-							<p><a href="#">xxxx</a></p>
-						</li>
-						<li>
-							<h3><a href="#">xxxx</a></h3>
-							<p><a href="#">xxxx</a></p>
-						</li>
+						
+						<div class="dash1">
+						    <p>This map is a visual representation of cleanliness status of a particular city/locality.<br>🔴Red: Immediate action required<br>🟠Orange: Complaints has been registered<br>🟢Green: Area is clean and green</p>
+						</div><br>
+						<div>
+						
+					    </div>
+						<div class="dash2">
+							
+							<p>You can register your complaint here, we will try to resolve it positively.<br><button align="center" class="button button1"><a href="http://localhost/f/Contactus/index.html" target="_blank">Register a Complaint</a></button></p>
+						</div><br>
+						<br>
+						<div class="dash3">
+							
+							<p>Feedback of completed work can be given here.<br><button align="center" class="button button2">Feedback</button><br>Thank you!</p>
+						</div>
+						
 					</ul>
+					
+					
+				
+					
+					
 				</div>
 				<div id="tbox2">
-					<h2>box2</h2>
-					<ul class="style2">
-						<li class="first">
-							<h3><a href="#">xxxx</a></h3>
-							<p><a href="#">xxxx</a></p>
-						</li>
-						<li>
-							<h3><a href="#">xxx</a></h3>
-							<p><a href="#">xxxx.</a></p>
-						</li>
-						<li>
-							<h3><a href="#">xxxx</a></h3>
-							<p><a href="#">xxxx</a></p>
-						</li>
-					</ul>
+					<h2>MAP</h2>
+					
 				</div>
+			</div>
+			<div id="cbox1">
+				<h2>Waste Segragation Guidelines</h2>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front">
+						<img src="images\flip1.png" alt="Organic Waste" style="width:300px;height:300px;">
+					  </div>
+					  <div class="flip-card-back">
+						<h1>Organic Waste</h1> <br>
+						<p>•Kitchen Waste:<br>
+							Vegetable/fruit peels, Cooked food/Leftovers Egg shells, Chicken/fish bones, Rotten fruits/vegetables, Tissue paper solled with food Tea bags/Coffee grinds, Leaf plates.
+							
+							</p><br> 
+						<p>•Garden waste:<br>
+							(small quantity only; from Apt) 
+							Fallen Leaves/twigs, Puja flowers/garlands, Weeds etc.</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="flip-card">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front">
+						<img src="images\flip2.png" alt="Dry Waste" style="width:300px;height:300px;">
+					  </div>
+					  <div class="flip-card-back">
+						<h1>Dry Waste</h1><br>
+						<p>•Plastic covers/bottles/boxes/items, Chips/toffee wrappers, Plastic cups, Milk/Curd packets, Newspaper/Magazines, Stationery/lunk mail, Metal cans, Glass (handle with care), Unbroken glass bottles
+							Other dry waste
+							
+							</p><br> 
+						<p>•E-waste (handle with care)
+							Batterles CDs/Tapes, Thermometers, Bulbs/tube lights/CFLS** (hand over separately)</p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="flip-card">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front">
+						<img src="images\flip3.png" alt="Reject Waste" style="width:300px;height:300px;">
+					  </div>
+					  <div class="flip-card-back">
+						<h1>Reject Waste</h1> <br>
+						<p>•Sanitary waste (Use a newspaper for wrapping) Diapers/Sanitary napkins,
+							Bandages, Condoms, Nails, Used tissues Medicines,
+							Swept dust.</p> <br>
+						
+						<p>•Construction debris/Inerts (Hand over separately), Rubble, Paints Silt from drains, Cement powder Bricks, Flower pots, Broken glass (wrap in newspaper)</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				
 			</div>
 		</div>
 		<div id="sidebar">
 			<div id="box1">
-				<h2>Images</h2>
+				<h2>News </h2>
+				<ul class="style3">
+					<li class="first"><img src="images\news1.png" width="90" height="90" alt="">
+						<p>Centre to probe ‘irregularities’ in Madhya Pradesh Swachh survey </p>
+						<p class="posted">The Union Ministry of Housing and Urban Affairs has initiated an inquiry into alleged irregularities. <a href="https://www.thehindu.com/news/national/other-states/government-to-probe-irregularities-in-madhya-pradesh-swachh-survey/article29693849.ece">Read more</a></p>
+					   
+					</li>
+					<li><img src="images\news2.png" width="90" height="90" alt="">
+						<p>Innovative technologies for clean environment </p>
+						<p class="posted">Mobile garbage collecting and dumping device, machine for water hyacinth removal.<a href="https://www.thehindubusinessline.com/news/science/innovative-technologies-for-clean-environment/article23838564.ece">Read more</a></p>
+					</li>
+					<li><img src="images\news3.png" width="90" height="90" alt="">
+						<p>Swachh Survekshan 2020 Rankings declared</p>
+						<p class="posted">On 20th August 2020, Ranking for Swachh Survekshan 2020 was released.<a href="https://www.prakati.in/swachh-survekshan-2020-rankings-declared/">Read more</a> </p>
+					</li>
+				</ul>
+				
+				
 				
 			</div>
 			<div id="box2">
-				<h2>News and Attachments</h2>
-				<ul class="style3">
-					<li class="first"><img src="images/img02.jpg" width="78" height="78" alt="">
-						<p>xxxxx </p>
-						<p class="posted">xxx</p>
-					</li>
-					<li><img src="images/img03.jpg" width="78" height="78" alt="">
-						<p>xxxxx </p>
-						<p class="posted">xxxxx</p>
-					</li>
-					<li><img src="images/img04.jpg" width="78" height="78" alt="">
-						<p>xxxxx </p>
-						<p class="posted">xxxx</p>
-					</li>
-				</ul>
+				<h2>Waste Management</h2>
+				<p>The collected garbage is called municipal waste. This waste is again sorted according to the categories</p><br>
+				    <p>1) Organic Waste</p>
+					<p>2) Plastic</p>
+					<p>3) Glass</p>
+					<p>4) Metal</p>
+					<p>5) Paper</p>
+					<p>6) Others</p><br>
+					
+					<p>• Organic waste is processed and used for composting.</p>
+					
+					<p>• Plastic, Glass, Metal, Paper wastes are reused/recycled.</p>
+					
+					<p>These two processes are economic.</p><br>
+					
+					<p>• Remaining waste which falls under the 'Other' category is used for landfill.</p>
+
+					
+					
+					<p>This is how waste is managed effectively.</p>
 				
 			</div>
 		</div>
 	</div>
 
-	
+	<div id="events" class="box">
+		<h2>Events</h2>
+		<p>Events related and activities related to Cleanliness, Environment, Pollution, etc are being conducted throughout the year.</p>
+		<p>This year 'स्वच्छता पंढरवाड़ा', 'स्वच्छता महोत्सव', Cleaning Riverside, Removing unnessessary Posters from all the Govt. buildings, <br>Tree Plantation these events are conducted with help of various NGOs, NSS, NCC and volunteers.</p>
+		<p>Here are some insights about conducted as well as upcoming events. </p>
+		<p></p>
+	  </div>
 
 		<div class="slider">
 		  <div id="slide-left-slider">
@@ -159,83 +204,83 @@
 		  <div id="cards-slider">
 			<div class="cards">
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Animals" style="width:100%">
+				<img src="images\8.png"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Animals</b>
+					<b>बाल-पर्यावरणप्रेमी<br>Upcoming </b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Nature" style="width:100%">
+				<img src="images\3.jpeg"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Nature</b>
+					<b>Cleaning office premises<br>Swachchhta Mahotsav</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Architecture" style="width:100%">
+				<img src="images\10.png"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Architecture</b>
+					<b>Swachchhta Mahotsav Poster</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Technology" style="width:100%">
+				<img src="images\2.jpeg"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Technology</b>
+					<b>	Tree Plantation<br>Swachchhta Pandharwada</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="People" style="width:100%">
+				<img src="images\9.png"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>People</b>
+					<b>Swachchhta Pandharwada Poster</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Animals" style="width:100%">
+				<img src="images\5.jpeg" width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Animals</b>
+					<b>Inauguration<br>Swachchhta Pandharwada</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Nature" style="width:100%">
+				<img src="images\4.jpeg"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Nature</b>
+					<b>Removing Posters from Restricted<br> Area</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Architecture" style="width:100%">
+				<img src="images\6.jpeg"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Architecture</b>
+					<b>Cleaning Roads</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="Technology" style="width:100%">
+				<img src="images\7.jpeg"  width="220" height="260">
 				<div class="slider">
 				  <h4>
-					<b>Technology</b>
+					<b>Cleaning Surroundings</b>
 				  </h4>
 				</div>
 			  </div>
 			  <div class="card">
-				<img src="http://via.placeholder.com/220x220" alt="People" style="width:100%">
+				<img src="images\1.jpeg" width="220" height="260">
 				<div class="slider">
-				  <h4>
-					<b>People</b>
-				  </h4>
+				 
+					<b>Cleaning Garbage from Empty<br>areas</b>
+				  
 				</div>
 			  </div>
 			</div>
@@ -252,53 +297,86 @@
 		<script  src="./script.js"></script>
 	  
 
-
+		<div id="aboutus" class="box">
+			<h2>About Us:</h2>
+			<p>CleanTrack is a joint initiative of local Administration and Team CleanTrack.</p>
+			<p>An innotiative way to reduce Garbage Pollution by tracking and improving cleaning services smartly.</p><br>
+			
+		  </div>
 	
 
 	<div class="staff-container">
 		
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
 			<div class="staff-info">
-				<span class="fst-name">Chetan</span>
-				<span class="lst-name">Agarwal</span>
+				<span class="fst-name">Chetan <br>Agarwal</span>
+				<span class="lst-name"></span>
 			</div>
 		</div>
 	
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244" >
 			<div class="staff-info">
-				<span class="fst-name">Shruti</span>
-				<span class="lst-name">Mehta</span>
+				<span class="fst-name">Shruti <br>Mehta </span>
+				<span class="lst-name"></span>
 			</div>
 		</div>
 	
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
 			<div class="staff-info">
-				<span class="fst-name">Shubham</span>
-				<span class="lst-name">Sontakke</span>
+				<span class="fst-name">Rana <br>Pathan</span>
+				<span class="lst-name"></span>
 			</div>
 		</div>
 
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png">
+			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
 			<div class="staff-info">
-				<span class="fst-name">Rana</span>
-				<span class="lst-name">Pathan</span>
+				<span class="fst-name">Shubham <br>Sontakke</span>
+				<span class="lst-name"></span>
 			</div>
 		</div>
 	
 	</div>
-	<div class="box">
-		<h2>Our Team</h2>
-		xxxxxx
-	  </div>
+	
 
 	<div id="footer">
-		<p>First section, first line of text<br /> Second line of text</p>
-		 <p>Second section, first line of text<br /> Second line of text</p>
-		  <p>Third section, first line of text<br /> Second line of text</p> 
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+						<h4>Contact us:</h4>
+						<ul>
+							<li><a href="#" style="font-size:20px">Team CleanTrack</a></li>
+							<li ><a class="fa fa-envelope" style="font-size:20px">Mail: trackclean9@gmail.com</a></li>
+							<li> <a class="fa fa-phone" style="font-size:20px" aria-hidden="true">Phone no. : 022-354-6473</a></li>
+							<li><a class="fa fa-whatsapp" style="font-size:20px">8965423091</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#two-column">Dashboard</a></li>
+							<li><a href="#events">Events</a></li>
+							
+							<li><a href="#">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Pledge</h4>
+						<ul>
+							<li style="font-size: 15px; color: black;">It is our duty to serve the nation by keeping the country neat and clean.<br>I take this pledge that I will remain commited towards cleanliness and devote time for this. <br>I pledge to seggregate my(household, shop, establishment) waste in two dustbins, wet in green and dry in blue.</li>
+						</ul><br>
+						
+					</div>
+					
+				</div>
+			</div>
+	   </footer>
+			
 	</div>
 </div>
 </body>
