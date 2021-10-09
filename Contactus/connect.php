@@ -6,6 +6,7 @@
 	$region = $_POST['region'];
 
 	$number = $_POST['number'];
+	$adhar = $_POST['adhar'];
 	$file = $_POST['file'];
 	$complaint = $_POST['complaint'];
 
@@ -15,8 +16,8 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$stmt = $conn->prepare("insert into register(firstName, lastName, gender, email, region, number, file, complaint) values(?, ?, ?, ?, ?, ?, ?, ?)");
-		$stmt->bind_param("sssssiss", $firstName, $lastName, $gender, $email, $region, $number, $file, $complaint);
+		$stmt = $conn->prepare("insert into register(firstName, lastName, gender, email, region, number, adhar, file, complaint) values(?, ?, ?, ?, ?, ?, ?, ?,?)");
+		$stmt->bind_param("sssssiiss", $firstName, $lastName, $gender, $email, $region, $number,$adhar, $file, $complaint);
 		$execval = $stmt->execute();
 		//echo $execval;
 		echo "Registration successfully...";
@@ -24,3 +25,14 @@
 		$conn->close();
 	}
 ?>
+
+
+
+
+
+
+
+
+
+
+
