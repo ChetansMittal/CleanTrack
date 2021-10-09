@@ -60,7 +60,7 @@
                 if(a[10]==2){
                     var poly = new L.polygon(patArr, {color: "rgb(255,165,0"});
                 }
-                if(a[10]==3){
+                if(a[10]>=3){
                     var poly = new L.polygon(patArr, {color: "rgb(255,0,0"});
                 }
 
@@ -87,7 +87,7 @@
                 if(a[25]==2){
                     var poly1 = new L.polygon(patArr1, {color: "rgb(255,165,0"});
                 }
-                if(a[25]==3){
+                if(a[25]>=3){
                     var poly1 = new L.polygon(patArr1, {color: "rgb(255,0,0"});
                 }
 
@@ -116,7 +116,7 @@
                 if(a[45]==2){
                     var poly2 = new L.polygon(patArr2, {color: "rgb(255,165,0"});
                 }
-                if(a[45]==3){
+                if(a[45]>=3){
                     var poly2 = new L.polygon(patArr2, {color: "rgb(255,0,0"});
                 }
 
@@ -143,7 +143,7 @@
                 if(a[60]==2){
                     var poly3 = new L.polygon(patArr3, {color: "rgb(255,165,0"});
                 }
-                if(a[60]==3){
+                if(a[60]>=3){
                     var poly3 = new L.polygon(patArr3, {color: "rgb(255,0,0"});
                 }
 
