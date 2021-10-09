@@ -82,7 +82,7 @@ hr {
 #wrapper {
 	width: 1520px;
 	
-	background-color: #E9E2D3;
+	background-color: #fff1fa;
 
 }
 
@@ -99,10 +99,81 @@ hr {
 
 #header {
 	overflow: hidden;
-	background-color:  #CFB395;
+	background-color:  #edcbc8;
 	padding: 35px 0px;
 	margin-bottom: 25px;
 }
+
+
+/**scroll up button**/
+
+#buttn {
+	display: inline-block;
+	background-color: #3d96e9;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	
+  }
+  #buttn::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 50px;
+	color: #fff;
+	
+  }
+  #buttn:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #buttn:active {
+	background-color: #555;
+  }
+  #buttn.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+	width: 77%;
+	margin: 50px auto;
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+	color: #6c767a;
+	line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+	.content {
+	  width: 43%;
+	}
+	#button {
+	  margin: 30px;
+	}
+  }
+  .content h1 {
+	margin-bottom: -10px;
+	color: #03a9f4;
+	line-height: 1.5;
+  }
+  .content h3 {
+	font-style: italic;
+	color: #96a2a7;
+  }
+
 
 /** LOGO */
 
@@ -115,14 +186,15 @@ hr {
 
 
 #logo h1 {
-	letter-spacing: -1px;
+	letter-spacing: 1px;
 	font-size: 40px;
 	padding-left: 5px;
+	font-family: "Rockwell";
 }
 
 #logo h1 a {
-	color: #ffffff;
-	
+	color: #000000;
+	padding-left: 5px;
 }
 
 #logo p {
@@ -150,7 +222,7 @@ hr {
 	height: 550px;
 	text-align: center;
 	overflow: hidden;
-	
+	box-shadow: 0 0 20px rgb(0, 0, 0);
 	border-radius: 20px;
   }
   #slider ul {
@@ -179,7 +251,7 @@ hr {
 	line-height: 50px;
 	border-radius: 50%;
 	font-size: 2rem;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+	text-shadow: 0 0 20px rgb(0, 0, 0);
 	text-align: center;
 	color: white;
 	text-decoration: none;
@@ -233,12 +305,13 @@ hr {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	font-weight: 300;
-	color: #ffffff;
+	color: #000000;
 	border: none;
 	
 }
 #menu a:hover {
-	background-color:  #74645E;
+	background-color:  #f2f3f4;
+	border-radius: 10px;
   }
 #menu .current_page_item a {
 	text-decoration-color: initial;
@@ -308,7 +381,7 @@ hr {
 	width: 400px;
 	text-decoration-color: #000;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background-color: #A8B0B2;
+	background-color: #c9e9f6;
 	border-color: black;
 	border-radius: 5px;
 	
@@ -352,9 +425,9 @@ li{
 	text-align: justify;
 }
 .footer{
-	background-color: #CFB395;
+	background-color: #a8ceda;
     padding: 20px 0;
-	
+	font-family: "Cardo";
 }
 .footer-col{
    width: 30%;
@@ -362,19 +435,20 @@ li{
    margin-left: 20px;
 }
 .footer-col h4{
-	font-size: 22px;
+	font-size: 25px;
 	color: #000;
 	text-transform: capitalize;
 	margin-bottom: 15px;
 	font-weight: 500;
 	position: relative;
 	text-decoration-thickness: 5px;
+	font-style: bold;
 } 
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
 .footer-col ul li a{
-	font-size: 16px;
+	font-size: 18px;
 	
 	color: #000;
 	text-decoration: none;
@@ -434,10 +508,11 @@ li{
 	
 }
 #two-column #tbox1 h2 {
-	font-family: inherit;
-	font-size: 28px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
 	text-align: center;
-	
+	text-decoration-thickness: 3px;
+	text-decoration: underline;
 }
 #two-column #tbox1 p {
 	font-size: 15px;
@@ -449,7 +524,7 @@ li{
 	width: 440px;
 	height: 500px;
 	text-align: center;
-	padding-left: 30px;
+	padding-left: 0px;
 	border-style: solid;
 	padding-right: 20px;
 }
@@ -534,7 +609,7 @@ li{
 .box {
 	max-width: 70rem;
 	margin: 1em auto;
-	background: #98BDB8;
+	background: #c9e9c9;
 	padding: 2em ;
 	text-align: center;
 	
@@ -550,6 +625,39 @@ li{
 	font-size: 15px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  .box a{
+	color: white;
+	text-decoration: none;
+  }
+
+  .box1 {
+	max-width: 70rem;
+	margin: 1em auto;
+	background: #c9e9c9;
+	padding: 10px;
+	text-align: center;
+	height: 180px;
+	border-radius: 5px;
+	
+  }
+  .box1 a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .box1 h2{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	padding-bottom: 5px;
+	color: red;
+  }
+  .box1 h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	padding-bottom: 3px;
+  }
+  
 /* Button style 1 */
 
 .link-style {
@@ -754,7 +862,7 @@ ul.style3 .first {
 	height: 150px;
 	
 	
-	background-color: #CFB395;
+	background-color: rgb(247,199,199);
 	padding: 0 10px ;
 	text-align: left;
 	font-size: 15px;
@@ -766,10 +874,13 @@ ul.style3 .first {
 	height: 100px;
 	
 	
-	background-color: #CFB395;
+	background-color: rgb(247,199,199);
 	padding: 0 10px ;
 	text-align: center;
 	font-size: 15px;
+  }
+  .dash2 a{
+	text-decoration: none;
   }
 
   .dash3 {
@@ -777,17 +888,19 @@ ul.style3 .first {
 	height: 100px;
 	
 	
-	background-color: #CFB395;
+	background-color: rgb(247,199,199);
 	padding: 0 10px ;
 	text-align: center;
 	font-size: 15px;
   }
-
+  .dash3 a{
+	text-decoration: none;
+  }
 
 
   /***button*/
   .button {
-	
+	text-decoration: none;
 	border: none;
 	color: white;
 	padding: 10px;
@@ -803,18 +916,60 @@ ul.style3 .first {
 	float: inline-start;
 	background: #3d96e9;
 	border-radius: 10px;
+	text-decoration: none;
 	
   }
+  
   .button1 a{
 	color: #ffffff;
+	text-decoration: none;
   }
   
    .button2 {
 		float: inline-start;
 		background: #3d96e9;
 	border-radius: 10px;
+	text-decoration: none;
+}
+.button2 a{
+	color: #ffffff;
+	text-decoration: none;
+  }
+
+
+
+	.button3 {
+		float: inline-start;
+		background: #3d96e9;
+	border-radius: 10px;
+	width: 150px;
+	padding: 10px;
 	
+	}@keyframes glowing {
+        0% {
+          background-color: #50aaff;
+          box-shadow: 0 0 10px #50aaff;
+        }
+        50% {
+          background-color: #2395ff;
+          box-shadow: 0 0 25px #2395ff;
+        }
+        100% {
+          background-color: #0084ff;
+          box-shadow: 0 0 10px #0084ff;
+        }
 	}
+	.button3 {
+        animation: glowing 2000ms infinite;
+      }
+	  .button3 hover{
+        background-color: #0084ff;
+      }
+    .button3 p{
+		font-size: 20px;
+		color: white;
+	}
+
 
 	/***flip card**/
   .flip-card {
