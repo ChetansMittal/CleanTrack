@@ -26,7 +26,7 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="http://localhost/f/Contactus/index.html" target="_blank">Register a Complaint</a></li>
+				<li class="current_page_item"><a href="Contactus\index.html">Register a Complaint</a></li>
 				<li><a href="#events">Events</a></li>
 				<li><a href="#two-column">Dashboard</a></li>
 				<li><a href="https://pages.razorpay.com/pl_I6AUeEMExNWLVy/view">Donation </a></li>
@@ -59,19 +59,19 @@
 					<ul class="style2">
 						
 						<div class="dash1">
-						    <p>This map is a visual representation of cleanliness status of a particular city/locality.<br>🔴Red: Immediate action required<br>🟠Orange: Complaints has been registered<br>🟢Green: Area is clean and green</p>
+						    <p>This map is a visual representation of cleanliness status of a particular city/locality.<br>🔴Red: Immediate action required<br>🟠Orange: Complaint should be resolved<br>🟢Green: Area is clean and green</p>
 						</div><br>
 						<div>
 						
 					    </div>
 						<div class="dash2">
 							
-							<p>You can register your complaint here, we will try to resolve it positively.<br><button align="center" class="button button1"><a href="http://localhost/f/Contactus/index.html" target="_blank">Register a Complaint</a></button></p>
+							<p>You can register your complaint here, we will resolve it positively.<br><button align="center" class="button button1"><a class="plain" href="Contactus\index.html">Register a Complaint</a></button></p>
 						</div><br>
 						<br>
 						<div class="dash3">
 							
-							<p>Feedback of completed work can be given here.<br><button align="center" class="button button2">Feedback</button><br>Thank you!</p>
+							<p>Feedback of completed work can be given here.<br><button align="center" class="button button2"><a href="Feedback\form.html" class="plain">Feedback</a></button><br>Thank you!</p>
 						</div>
 						
 					</ul>
@@ -82,7 +82,9 @@
 					
 				</div>
 				<div id="tbox2">
-					<h2>MAP</h2>
+					
+					<iframe src="http://localhost:8080/f/Contactus/map.php" style="width:440px; height:500px;"></iframe>
+
 					
 				</div>
 			</div>
@@ -190,8 +192,8 @@
 
 	<div id="events" class="box">
 		<h2>Events</h2>
-		<p>Events related and activities related to Cleanliness, Environment, Pollution, etc are being conducted throughout the year.</p>
-		<p>This year 'स्वच्छता पंढरवाड़ा', 'स्वच्छता महोत्सव', Cleaning Riverside, Removing unnessessary Posters from all the Govt. buildings, <br>Tree Plantation these events are conducted with help of various NGOs, NSS, NCC and volunteers.</p>
+		<p>Events and activities related to Cleanliness, Environment, Pollution, etc are being conducted throughout the year.</p>
+		<p>This year 'स्वच्छता पंधरवाड़ा', 'स्वच्छता महोत्सव', Cleaning Riverside, Removing unnessessary Posters from all the Govt. buildings, <br>Tree Plantation these events are conducted with help of various NGOs, NSS, NCC and volunteers.</p>
 		<p>Here are some insights about conducted as well as upcoming events. </p>
 		<p></p>
 	  </div>
@@ -279,7 +281,7 @@
 				<img src="images\1.jpeg" width="220" height="260">
 				<div class="slider">
 				 
-					<b>Cleaning Garbage from Empty<br>areas</b>
+					<b>Cleaning Riverside</b>
 				  
 				</div>
 			  </div>
@@ -299,7 +301,7 @@
 
 		<div id="aboutus" class="box">
 			<h2>About Us:</h2>
-			<p>CleanTrack is a joint initiative of local Administration and Team CleanTrack.</p>
+			<p>CleanTrack is a joint initiative of local administration and 'Team Aarnik'.</p>
 			<p>An innotiative way to reduce Garbage Pollution by tracking and improving cleaning services smartly.</p><br>
 			
 		  </div>
@@ -308,7 +310,7 @@
 	<div class="staff-container">
 		
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
+			<img src="images\chetan.jpeg" width="178" height="280">
 			<div class="staff-info">
 				<span class="fst-name">Chetan <br>Agarwal</span>
 				<span class="lst-name"></span>
@@ -316,7 +318,7 @@
 		</div>
 	
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244" >
+			<img src="images\shruti.jpeg" width="178" height="280" >
 			<div class="staff-info">
 				<span class="fst-name">Shruti <br>Mehta </span>
 				<span class="lst-name"></span>
@@ -324,7 +326,7 @@
 		</div>
 	
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
+			<img src="#" width="178" height="280">
 			<div class="staff-info">
 				<span class="fst-name">Rana <br>Pathan</span>
 				<span class="lst-name"></span>
@@ -332,7 +334,7 @@
 		</div>
 
 		<div class="single-staff">
-			<img src="https://brhgarver.com/wp-content/uploads/2020/04/dummy.png" width="178" height="244">
+			<img src="images\shubham.jpg" width="178" height="280">
 			<div class="staff-info">
 				<span class="fst-name">Shubham <br>Sontakke</span>
 				<span class="lst-name"></span>
@@ -340,7 +342,18 @@
 		</div>
 	
 	</div>
-	
+
+    <a id="buttn"></a>
+	<script  src="./script.js"></script>
+
+
+	<div class="box1">
+		<h2>Wait!</h2>
+		<br>
+		<h1> Do you want to know what happens with the collected Garbage?🤔</h1><br>
+		<p><button align="center" class="button button3"><p><a href="https://drive.google.com/file/d/1VDwa6Fs4HLKCf6CoqH7U_OIXXA00hJSN/view?usp=sharing">Click Here!!!</a></p></button></p>
+		
+	  </div><br>
 
 	<div id="footer">
 		<footer class="footer">
@@ -349,10 +362,10 @@
 					<div class="footer-col">
 						<h4>Contact us:</h4>
 						<ul>
-							<li><a href="#" style="font-size:20px">Team CleanTrack</a></li>
-							<li ><a class="fa fa-envelope" style="font-size:20px">Mail: trackclean9@gmail.com</a></li>
-							<li> <a class="fa fa-phone" style="font-size:20px" aria-hidden="true">Phone no. : 022-354-6473</a></li>
-							<li><a class="fa fa-whatsapp" style="font-size:20px">8965423091</a></li>
+							<li><a style="font-size:20px">Team Aarnik</a></li>
+							<li ><a class="fa fa-envelope" style="font-size:20px" href="mailto:trackclean9@gmail.com">Mail: trackclean9@gmail.com</a></li>
+							<li> <a class="fa fa-phone" style="font-size:20px" aria-hidden="true" href="tel:9834710110">Phone no. : 022-354-6473</a></li>
+							<li><a class="fa fa-whatsapp" href="https://wa.me/9834710110?text=Hello team aarnik!" target="_blank" style="font-size:20px">9834710110</a></li>
 						</ul>
 					</div>
 					<div class="footer-col">
@@ -362,13 +375,13 @@
 							<li><a href="#two-column">Dashboard</a></li>
 							<li><a href="#events">Events</a></li>
 							
-							<li><a href="#">Feedback</a></li>
+							<li><a href="Feedback\form.html">Feedback</a></li>
 						</ul>
 					</div>
 					<div class="footer-col">
 						<h4>Pledge</h4>
 						<ul>
-							<li style="font-size: 15px; color: black;">It is our duty to serve the nation by keeping the country neat and clean.<br>I take this pledge that I will remain commited towards cleanliness and devote time for this. <br>I pledge to seggregate my(household, shop, establishment) waste in two dustbins, wet in green and dry in blue.</li>
+							<li style="font-size: 18px; color: black;">It is our duty to serve the nation by keeping the country neat and clean.<br>I take this pledge that I will remain commited towards cleanliness and devote time for this. <br>I pledge to seggregate my(household, shop, establishment) waste in two dustbins, wet in green and dry in blue.</li>
 						</ul><br>
 						
 					</div>
