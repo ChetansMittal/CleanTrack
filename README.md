@@ -56,7 +56,7 @@ Run Project on your machine -
 
 # Footer
 
-![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/Footer.jpg
+![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/footer.jpg)
 
 # Thank you for read :-)
 
