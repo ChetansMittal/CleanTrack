@@ -11,7 +11,7 @@
 	$complaint = $_POST['complaint'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','','test');
+	$conn = new mysqli('localhost','root','','feed_form');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
