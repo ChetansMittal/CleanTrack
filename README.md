@@ -39,6 +39,15 @@ Run Project on your machine -
 
 ![Events](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Events.png)
 
+
+# About Us 
+
+![About Us](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/About%20us.jpg)
+
+# Footer
+
+![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/Footer.jpg)
+
 # Complaint Form
 
 ![Complaint Form](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Complaint%20Form.png)
@@ -50,14 +59,6 @@ Run Project on your machine -
 # Donation Page
 
 ![Donation Page](https://github.com/ChetansMittal/CleanTrack/blob/805cb856fdeee251e2b8ebf2f7f63049400d6d22/Website%20Images/Donation.png)
-
-# About Us 
-
-![About Us](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/About%20us.jpg)
-
-# Footer
-
-![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/Footer.jpg)
 
 # Thank you 
 
