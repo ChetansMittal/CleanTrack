@@ -1,3 +1,4 @@
+
 # CleanTrack
 Team Aarnik
 'CleanTrack', a website that helps the administration to track the progress and 
@@ -56,9 +57,22 @@ Run Project on your machine -
 
 # Footer
 
-![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/footer.jpg)
+![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/Footer.jpg)
 
-# Thank you for read :-)
+# Thank you 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
