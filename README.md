@@ -26,31 +26,31 @@ Run Project on your machine -
       
 # Project Outputs -
 
-1. ###HOME PAGE 
+# HOME PAGE 
 
 ![Home page](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/homepage.png)
 
-2. ###Map
+# Map
 
 ![Map](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Map.png)
 
-3. Events 
+# Events 
 
 ![Events](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Events.png)
 
-4. Complaint Form
+# Complaint Form
 
 ![Complaint Form](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Complaint%20Form.png)
 
-5. Feedback Form
+# Feedback Form
 
 ![Feedback Form](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Feedback%20Form.png)
 
-6. Donation Page
+# Donation Page
 
 ![Donation Page](https://github.com/ChetansMittal/CleanTrack/blob/805cb856fdeee251e2b8ebf2f7f63049400d6d22/Website%20Images/Donation.png)
 
-Thank you for read :-)
+# Thank you for read :-)
 
 
 
