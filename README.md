@@ -26,11 +26,11 @@ Run Project on your machine -
       
 # Project Outputs -
 
-1. HOME PAGE 
+1. ###HOME PAGE 
 
 ![Home page](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/homepage.png)
 
-2. Map
+2. ###Map
 
 ![Map](https://github.com/ChetansMittal/CleanTrack/blob/5b82b1ae0188b4eae08e6e6f4aaaf7b7a2715f77/Website%20Images/Map.png)
 
