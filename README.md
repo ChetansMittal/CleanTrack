@@ -50,6 +50,14 @@ Run Project on your machine -
 
 ![Donation Page](https://github.com/ChetansMittal/CleanTrack/blob/805cb856fdeee251e2b8ebf2f7f63049400d6d22/Website%20Images/Donation.png)
 
+# About Us 
+
+![About Us](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/About%20us.jpg)
+
+# Footer
+
+![Footer](https://github.com/ChetansMittal/CleanTrack/blob/e4a425a7cacff84f5cb6226bcc47dbffc497b3f8/Website%20Images/Footer.jpg
+
 # Thank you for read :-)
 
 
